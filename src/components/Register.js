@@ -37,11 +37,15 @@ export default function Register() {
 
 
     return (
-<div className="flex flex-wrap min-h-screen w-full content-center justify-center bg-gray-200 py-10">
+<div className="flex flex-wrap gap-0 min-h-screen w-full content-center justify-center bg-gray-200 py-10">
   {/* Nuevo componente de creación de cuenta */}
+   {/* Banner de creación de cuenta */}
+   <div className="flex flex-wrap content-center justify-center rounded-r-md" style={{ width: '24rem', height: '40rem' }}>
+      <img className="w-full h-full bg-center bg-no-repeat bg-cover rounded-r-md" src="https://bepro.cl/cdn/shop/files/183602023_8fd5497b-01a8-4d19-bde6-789ed9441ba7_5000x.png?v=1699462663" alt="Registro Banner" />
+    </div>
   <div className="flex shadow-md">
     {/* Formulario de creación de cuenta */}
-    <div className="flex flex-wrap content-center justify-center rounded-l-md bg-white" style={{ width: '24rem', height: '32rem' }}>
+    <div className="flex flex-wrap gap-0 content-center justify-center rounded-l-md bg-white" style={{ width: '24rem', height: '40rem' }}>
       <div className="w-72">
         {/* Encabezado */}
         <img className="mx-auto h-12 w-auto" src={Logo} alt="Workflow" />
@@ -138,10 +142,7 @@ export default function Register() {
       </div>
     </div>
 
-    {/* Banner de creación de cuenta */}
-    <div className="flex flex-wrap content-center justify-center rounded-r-md" style={{ width: '24rem', height: '32rem' }}>
-      <img className="w-full h-full bg-center bg-no-repeat bg-cover rounded-r-md" src="https://bepro.cl/cdn/shop/files/183602023_8fd5497b-01a8-4d19-bde6-789ed9441ba7_5000x.png?v=1699462663" alt="Registro Banner" />
-    </div>
+   
   </div>
 </div>
     

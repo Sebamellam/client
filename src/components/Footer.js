@@ -3,8 +3,8 @@ import React from 'react'
 
 export default function Footer() {
     return (
-        <div class="flex items-end w-full min-h-screen bg-white mt-0">
-            <footer class="w-full text-gray-700 bg-gray-100 body-font mt-0">
+        <div class="flex items-end w-full min-h-halfscreen bg-white ">
+            <footer class="w-full text-gray-700 bg-gray-100 body-font ">
                 <div class="container flex flex-col md:flex-row justify-between items-center px-5 py-8 mx-auto ">
                     <div class="flex-shrink-0 w-64 mx-auto text-center md:mx-0 md:text-left">
                         <div class="mb-4">
@@ -129,7 +129,7 @@ z"
                             </div>
                         </div>
                     </div>
-                    <div classname="md:col-span-2">
+                    <div className="md:col-span-2">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3189.461769536567!2d-70.60928648434144!3d-33.43537748085912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c61d5a127c07%3A0xc1aaddc9d4c9471c!2sYour%20Business%20Location!5e0!3m2!1sen!2sus!4v1632156636231!5m2!1sen!2sus"
                             width="100%"

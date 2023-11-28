@@ -126,11 +126,6 @@ export default function Product() {
                   <p className="text-base text-gray-900 mt-6">
                     <b>Precio</b>: ${precio} CLP
                   </p>
-
-                  <p className="text-base text-gray-900 mb-6">
-                    <b>Descripcion</b>: {descripcion}
-                  </p>
-
                   {
                     user?.email ?
                       <div classNameName="mt-10" id="payment-form"></div>

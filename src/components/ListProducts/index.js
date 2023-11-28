@@ -39,7 +39,7 @@ export default function ListProducts(props) {
                 <Link to={`/${e._id}`} key={e._id}>
                   <div className="group relative">
                     <div className="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">
-                      <img src={ e.imagen} alt="Guitar" className="w-full h-full object-center object-cover lg:w-full lg:h-full" />
+                      <img src={ e.imagen} alt="Producto" className="w-full h-full object-center object-cover lg:w-full lg:h-full" />
                     </div>
                     <div className="mt-4 flex justify-between">
                       <div>

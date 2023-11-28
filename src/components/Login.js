@@ -35,8 +35,9 @@ export default function Login() {
 
   }
 
-  return (<div className="flex flex-wrap min-h-screen w-full content-center justify-center bg-gray-200 py-10">
+  return (
 
+  <div className="flex flex-wrap min-h-screen w-full content-center justify-center bg-gray-200 py-10">
   {/* Nuevo componente de inicio de sesión */}
   <div className="flex shadow-md">
     {/* Formulario de inicio de sesión */}
@@ -108,7 +109,7 @@ export default function Login() {
 
     {/* Banner de inicio de sesión */}
     <div className="flex flex-wrap content-center justify-center rounded-r-md" style={{ width: '24rem', height: '32rem' }}>
-      <img className="w-full h-full bg-center bg-no-repeat bg-cover rounded-r-md" src="https://i.imgur.com/9l1A4OS.jpeg" alt="Login Banner" />
+      <img className="w-full h-full bg-center bg-no-repeat bg-cover rounded-r-md" src="https://bepro.cl/cdn/shop/files/183602023_1_5000x.png?v=1699462663" alt="Login Banner" />
     </div>
   </div>
 </div>

@@ -109,7 +109,7 @@ export default function Product() {
               </nav>
               <div className="mt-6 max-w-2xl mx-auto sm:px-6 lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
                 <div className="w-full rounded-lg overflow-hidden lg:block">
-                  <img src={imagen} alt="Two each of gray, white, and black shirts laying flat." className="w-full h-full object-center object-cover" />
+                  <img src={imagen} alt="Cargando foto" className="w-full h-full object-center object-cover" />
                 </div>
               </div>
 

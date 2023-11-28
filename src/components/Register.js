@@ -52,13 +52,13 @@ export default function Register() {
           </Link>
         </p>
       </div>
-
+    
       <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
         <div className="bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10">
           <form onSubmit={(e) => { sendData(e) }} className="space-y-6">
-
-          <div>
-              <label for="password" className="block text-sm font-medium text-gray-700">
+            {/* Campo de entrada de nombre */}
+            <div>
+              <label htmlFor="name" className="block text-sm font-medium text-gray-700">
                 Tu nombre completo
               </label>
               <div className="mt-1">
@@ -71,9 +71,10 @@ export default function Register() {
                   className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" />
               </div>
             </div>
-
+    
+            {/* Campo de entrada de correo electrónico */}
             <div>
-              <label for="email" className="block text-sm font-medium text-gray-700">
+              <label htmlFor="email" className="block text-sm font-medium text-gray-700">
                 Tu correo electrónico
               </label>
               <div className="mt-1">
@@ -86,9 +87,10 @@ export default function Register() {
                   className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" />
               </div>
             </div>
-
+    
+            {/* Campo de entrada de contraseña */}
             <div>
-              <label for="password" className="block text-sm font-medium text-gray-700">
+              <label htmlFor="password" className="block text-sm font-medium text-gray-700">
                 Tu contraseña
               </label>
               <div className="mt-1">
@@ -101,31 +103,34 @@ export default function Register() {
                   className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" />
               </div>
             </div>
-
+    
+            {/* Campo de confirmación de contraseña */}
             <div>
-              <label for="password" className="block text-sm font-medium text-gray-700">
+              <label htmlFor="confirm-password" className="block text-sm font-medium text-gray-700">
                 Confirma tu contraseña
               </label>
               <div className="mt-1">
                 <input 
-                id="confirm-password" 
-                name="confirm-password" 
-                type="password" 
-                required 
-                onChange={(e) => { handleChange(e) }}
-                className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" />
+                  id="confirm-password" 
+                  name="confirm-password" 
+                  type="password" 
+                  required 
+                  onChange={(e) => { handleChange(e) }}
+                  className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" />
               </div>
             </div>
-
+    
+            {/* Botón de registro */}
             <div>
               <button type="submit" className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-500 hover:bg-blue-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
-                Acceder a tu cuenta
+                Registrarse
               </button>
             </div>
           </form>
         </div>
       </div>
     </div>
+    
 
     )
 }

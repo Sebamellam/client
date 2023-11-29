@@ -9,7 +9,7 @@ export default function Footer() {
                     <div class="flex-shrink-0 w-64 mx-auto text-center md:mx-0 md:text-left">
                         <div class="mb-4">
                             <a class="flex items-center justify-center font-medium text-gray-900 title-font md:justify-start">
-                                <svg class="w-auto h-5 text-gray-900 fill-current" viewBox="0 0 202 69"
+                                <svg class="w-auto ml-5 h-120 text-gray-900 fill-current" viewBox="0 0 400 138"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path d="M125.000000,50.000000 
 	C125.000000,58.687565 125.000000,67.375130 124.702789,76.751419 

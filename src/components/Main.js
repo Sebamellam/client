@@ -14,7 +14,7 @@ export default function Main() {
           <div className="md:col-span-1 flex items-center justify-center text-white text-center p-8">
             <div>
               <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl">El lugar donde encontraras todas tus marcas favoritas</h1>
-              <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-4 md:px-16 lg:px-48">Acá en Kapo di pelo nos preocupamos por tener una gran variedad de marcas para los mejores productos de barberías</p>
+              <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-4 md:px-16 lg:px-48">En Kapo di pelo nos preocupamos por tener una gran variedad de marcas para los mejores productos de barberías</p>
               <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
                 <Link to="/catalogo">
                   <a className="flex items-center justify-center px-4 py-3 border border-transparent text-base text-white font-medium rounded-md shadow-sm bg-blue-500 hover:bg-blue-300 sm:px-8">

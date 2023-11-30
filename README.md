@@ -2,7 +2,7 @@ Proyecto 5 Aplicación de Comercio Electrónico
 
 ## Demo
 
-Puedes ver el demo [dando click en este enlace.]()
+Puedes ver el demo [dando click en este enlace.](https://sebamellam.github.io/)
 
 ## Instalación
 

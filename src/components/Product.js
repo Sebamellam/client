@@ -101,7 +101,7 @@ export default function Product() {
                   </li>
 
                   <li className="text-sm">
-                    <a href="#" aria-current="page" className="font-medium text-gray-500 hover:text-gray-600">
+                    <a href="#" aria-current="page" className="font-medium text-black-500 hover:text-black-600">
                       {nombre}
                     </a>
                   </li>

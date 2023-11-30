@@ -40,3 +40,18 @@ SECRET_JWT='PALABRASECRETADEBESCAMBIARLA'
 PROD_ACCESS_TOKEN='TEST-8283691311611373-111111-6e0891837d7ee10afe79266843d56e31-1545626684'
 ```
 
+`Pago MERCADOPAGO`
+Para poder realizar el pago utilizando MERCADOPAGO 
+
+```
+Prueba de comprador
+usuario TESTUSER349596683
+contraseña M1VnA5bU4w
+tarjeta mastercard 
+numeroº 5416 7526 0258 2580
+codigo de seguridad 123
+fecha de caducidad 11/25
+
+APRO= nombre del titular
+documento de identidad 123456789
+```

@@ -9,7 +9,7 @@ export default function Main() {
       <main className="mt-10">
         <section className="relative grid grid-cols-1 md:grid-cols-2 bg-center bg-no-repeat bg-cover bg-gray-700 bg-blend-multiply">
           <div className="md:col-span-1 flex items-center justify-center">
-            <img className="object-cover w-full md:h-full" src={BackgroundJumbotron} alt="Guitarras para todo el público" />
+            <img className="object-cover w-full md:h-full" src={BackgroundJumbotron} alt="Todas las marcas" />
           </div>
           <div className="md:col-span-1 flex items-center justify-center text-white text-center p-8">
             <div>

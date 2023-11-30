@@ -41,7 +41,7 @@ export default function Header() {
 
                   <div className="flow-root" onClick={toggleMobileSidebar}>
                     <Link to="/">
-                      <img className="h-8 w-auto" src={kapo} alt="Guitar LATAM" />
+                      <img className="h-8 w-auto" src={kapo} alt="Kapo Logo" />
                     </Link>
                   </div>
 
@@ -109,7 +109,7 @@ export default function Header() {
                 <Link to="/">
                   <div className="ml-4 mr-4 flex lg:ml-0">
 
-                    <img className="h-8 w-auto" src={kapo} alt="Guitar LATAM" />
+                    <img className="h-8 w-auto" src={kapo} alt="Kapo Logo" />
                     <span className="font-medium italic mt-1">Kapo di pelo</span>
 
                   </div>

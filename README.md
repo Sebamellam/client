@@ -16,6 +16,9 @@ $ npm run start
 ```
 
 `Terminal 2 Server-ok`
+
+Puedes ver el repo [dando click en este enlace.](https://github.com/Sebamellam/server-ok)
+
 ```shell
 $ cd server
 $ npm install
